@@ -1,6 +1,8 @@
 .next
 .npm-cache
 node_modules
+.env*
+!.env.example
 dev-server*.log
 *.tsbuildinfo
 data/*.json
