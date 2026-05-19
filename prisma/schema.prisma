@@ -1,0 +1,88 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Booking {
+  id                String    @id
+  trackingNumber    String    @unique
+  customerName      String?
+  customerEmail     String?
+  receiverName      String?
+  pickup            String
+  destination       String
+  senderPhone       String
+  receiverPhone     String
+  service           String
+  weight            String
+  parcelCategory    String    @default("General")
+  pickupWindow      String?
+  description       String
+  fragile           Boolean   @default(false)
+  payment           String
+  amount            Int
+  status            String
+  pickupLat         Float?
+  pickupLng         Float?
+  destinationLat    Float?
+  destinationLng    Float?
+  distanceKm        Float?
+  durationMinutes   Int?
+  assignedRiderId   String?
+  internalNotes     String?
+  proofReceiverName String?
+  proofPhotoUrl     String?
+  proofSignature    String?
+  deliveredAt       DateTime?
+  timeline          Json
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+
+  rider Rider? @relation(fields: [assignedRiderId], references: [id])
+
+  @@index([createdAt])
+  @@index([status])
+  @@index([assignedRiderId])
+  @@index([customerEmail])
+  @@index([senderPhone])
+}
+
+model ContactMessage {
+  id        String   @id
+  name      String
+  email     String
+  phone     String
+  subject   String
+  message   String
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+}
+
+model Rider {
+  id        String    @id
+  name      String
+  phone     String
+  city      String
+  status    String    @default("available")
+  createdAt DateTime  @default(now())
+  bookings  Booking[]
+
+  @@index([status])
+  @@index([city])
+}
+
+model AuditLog {
+  id             String   @id
+  trackingNumber String?
+  actor          String
+  action         String
+  details        String
+  createdAt      DateTime @default(now())
+
+  @@index([trackingNumber])
+  @@index([createdAt])
+}

@@ -1,0 +1,137 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.12.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\arnoc\Desktop\Website Projects 2026\AirFreight\.npmrc
+5 silly config load:file:C:\Users\arnoc\.npmrc
+6 silly config load:file:C:\Users\arnoc\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install @next/swc-wasm-nodejs@14.2.33
+8 verbose argv "install" "@next/swc-wasm-nodejs@14.2.33" "--cache" ".npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\arnoc\Desktop\Website Projects 2026\AirFreight\.npm-cache\_logs\2026-05-18T20_43_15_752Z-
+10 verbose logfile C:\Users\arnoc\Desktop\Website Projects 2026\AirFreight\.npm-cache\_logs\2026-05-18T20_43_15_752Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest @next/swc-wasm-nodejs@14.2.33
+15 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-wasm-nodejs cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-wasm-nodejs 11299ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-wasm-nodejs set size:undefined disposed:false
+18 silly placeDep ROOT @next/swc-wasm-nodejs@14.2.33 OK for: gds-airfreight@1.0.0 want: 14.2.33
+19 silly fetch manifest @next/swc-darwin-arm64@14.2.33
+20 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 cache-miss
+21 http cache https://registry.npmjs.org/@next%2fswc-darwin-arm64 37ms (cache hit)
+22 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 set size:5253212 disposed:false
+23 silly fetch manifest @next/swc-darwin-x64@14.2.33
+24 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 cache-miss
+25 http cache https://registry.npmjs.org/@next%2fswc-darwin-x64 30ms (cache hit)
+26 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 set size:5196409 disposed:false
+27 silly fetch manifest @next/swc-linux-arm64-gnu@14.2.33
+28 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu cache-miss
+29 http cache https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu 32ms (cache hit)
+30 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu set size:5105580 disposed:false
+31 silly fetch manifest @next/swc-linux-arm64-musl@14.2.33
+32 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl cache-miss
+33 http cache https://registry.npmjs.org/@next%2fswc-linux-arm64-musl 31ms (cache hit)
+34 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl set size:5123436 disposed:false
+35 silly fetch manifest @next/swc-linux-x64-gnu@14.2.33
+36 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu cache-miss
+37 http cache https://registry.npmjs.org/@next%2fswc-linux-x64-gnu 23ms (cache hit)
+38 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu set size:5302402 disposed:false
+39 silly fetch manifest @next/swc-linux-x64-musl@14.2.33
+40 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl cache-miss
+41 http cache https://registry.npmjs.org/@next%2fswc-linux-x64-musl 29ms (cache hit)
+42 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl set size:5058456 disposed:false
+43 silly fetch manifest @next/swc-win32-arm64-msvc@14.2.33
+44 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc cache-miss
+45 http cache https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc 23ms (cache hit)
+46 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc set size:5087582 disposed:false
+47 silly fetch manifest @next/swc-win32-ia32-msvc@14.2.33
+48 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-ia32-msvc cache-miss
+49 http cache https://registry.npmjs.org/@next%2fswc-win32-ia32-msvc 21ms (cache hit)
+50 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-ia32-msvc set size:3201589 disposed:false
+51 silly placeDep ROOT @next/swc-darwin-arm64@14.2.33 OK for: next@14.2.35 want: 14.2.33
+52 silly placeDep ROOT @next/swc-darwin-x64@14.2.33 OK for: next@14.2.35 want: 14.2.33
+53 silly placeDep ROOT @next/swc-linux-arm64-gnu@14.2.33 OK for: next@14.2.35 want: 14.2.33
+54 silly placeDep ROOT @next/swc-linux-arm64-musl@14.2.33 OK for: next@14.2.35 want: 14.2.33
+55 silly placeDep ROOT @next/swc-linux-x64-gnu@14.2.33 OK for: next@14.2.35 want: 14.2.33
+56 silly placeDep ROOT @next/swc-linux-x64-musl@14.2.33 OK for: next@14.2.35 want: 14.2.33
+57 silly placeDep ROOT @next/swc-win32-arm64-msvc@14.2.33 OK for: next@14.2.35 want: 14.2.33
+58 silly placeDep ROOT @next/swc-win32-ia32-msvc@14.2.33 OK for: next@14.2.35 want: 14.2.33
+59 silly reify mark retired [
+59 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\loose-envify',
+59 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\loose-envify',
+59 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\loose-envify.cmd',
+59 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\loose-envify.ps1'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\nanoid',
+60 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\nanoid',
+60 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\nanoid.cmd',
+60 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\nanoid.ps1'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\next',
+61 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\next',
+61 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\next.cmd',
+61 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\next.ps1'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\typescript',
+62 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\tsc',
+62 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\tsc.cmd',
+62 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\tsc.ps1',
+62 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\tsserver',
+62 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\tsserver.cmd',
+62 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\tsserver.ps1'
+62 silly reify ]
+63 silly reify moves {
+63 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\loose-envify': 'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.loose-envify-d08mi91p',
+63 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\loose-envify': 'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\.loose-envify-QkU8ZnyQ',
+63 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\loose-envify.cmd': 'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\.loose-envify.cmd-NjgSOuht',
+63 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\loose-envify.ps1': 'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\.loose-envify.ps1-0FrZmBaY',
+63 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\nanoid': 'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.nanoid-UQcPgBDm',
+63 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\nanoid': 'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\.nanoid-uaiLFdNo',
+63 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\nanoid.cmd': 'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\.nanoid.cmd-qCYB49jH',
+63 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\nanoid.ps1': 'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\.nanoid.ps1-ejyTfozk',
+63 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\next': 'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.next-6ksCAiVr',
+63 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\next': 'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\.next-n7IJBVP0',
+63 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\next.cmd': 'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\.next.cmd-PzLKzFLw',
+63 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\next.ps1': 'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\.next.ps1-5F3OAGUM',
+63 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\typescript': 'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.typescript-NTrCCWST',
+63 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\tsc': 'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\.tsc-D5j34pkb',
+63 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\tsc.cmd': 'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\.tsc.cmd-4JqIs8o8',
+63 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\tsc.ps1': 'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\.tsc.ps1-YnXH5s4G',
+63 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\tsserver': 'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\.tsserver-LcT7cEBi',
+63 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\tsserver.cmd': 'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\.tsserver.cmd-qlTfe8nI',
+63 silly reify   'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\tsserver.ps1': 'C:\\Users\\arnoc\\Desktop\\Website Projects 2026\\AirFreight\\node_modules\\.bin\\.tsserver.ps1-bYGRr9ji'
+63 silly reify }
+64 http cache @next/swc-wasm-nodejs@https://registry.npmjs.org/@next/swc-wasm-nodejs/-/swc-wasm-nodejs-14.2.33.tgz 0ms (cache hit)
+65 silly packumentCache corgi:https://registry.npmjs.org/typescript cache-miss
+66 silly packumentCache corgi:https://registry.npmjs.org/next cache-miss
+67 silly tarball no local data for @next/swc-wasm-nodejs@https://registry.npmjs.org/@next/swc-wasm-nodejs/-/swc-wasm-nodejs-14.2.33.tgz. Extracting by manifest.
+68 silly packumentCache corgi:https://registry.npmjs.org/nanoid cache-miss
+69 silly packumentCache corgi:https://registry.npmjs.org/loose-envify cache-miss
+70 http fetch GET 200 https://registry.npmjs.org/loose-envify 747ms (cache miss)
+71 silly packumentCache corgi:https://registry.npmjs.org/loose-envify set size:undefined disposed:false
+72 http cache https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 21ms (cache hit)
+73 http fetch GET 200 https://registry.npmjs.org/nanoid 1244ms (cache miss)
+74 silly packumentCache corgi:https://registry.npmjs.org/nanoid set size:undefined disposed:false
+75 http cache https://registry.npmjs.org/nanoid/-/nanoid-3.3.12.tgz 12ms (cache hit)
+76 http fetch GET 200 https://registry.npmjs.org/typescript 8121ms (cache miss)
+77 silly packumentCache corgi:https://registry.npmjs.org/typescript set size:undefined disposed:false
+78 http cache https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 106ms (cache hit)
+79 http fetch GET 200 https://registry.npmjs.org/next 9137ms (cache miss)
+80 silly packumentCache corgi:https://registry.npmjs.org/next set size:undefined disposed:false
+81 http fetch GET 200 https://registry.npmjs.org/@next/swc-wasm-nodejs/-/swc-wasm-nodejs-14.2.33.tgz 36883ms (cache miss)
+82 http fetch GET 200 https://registry.npmjs.org/next/-/next-14.2.35.tgz 45936ms (cache miss)
+83 silly ADD node_modules/@next/swc-wasm-nodejs
+84 silly CHANGE node_modules/typescript
+85 silly CHANGE node_modules/next
+86 silly CHANGE node_modules/nanoid
+87 silly CHANGE node_modules/loose-envify
+88 verbose cwd C:\Users\arnoc\Desktop\Website Projects 2026\AirFreight
+89 verbose os Windows_NT 10.0.26200
+90 verbose node v24.12.0
+91 verbose npm  v11.6.2
+92 verbose exit 0
+93 info ok

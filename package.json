@@ -1,0 +1,42 @@
+{
+  "name": "gds-airfreight",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node node_modules/next/dist/bin/next dev",
+    "build": "node node_modules/next/dist/bin/next build",
+    "start": "node node_modules/next/dist/bin/next start",
+    "lint": "node node_modules/next/dist/bin/next lint",
+    "typecheck": "tsc --noEmit",
+    "verify:core": "node scripts/verify-core-flow.js",
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push",
+    "db:ensure": "node scripts/ensure-neon-schema.js",
+    "db:migrate": "prisma migrate dev",
+    "db:studio": "prisma studio",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@next/swc-wasm-nodejs": "^16.2.6",
+    "@prisma/adapter-pg": "^7.8.0",
+    "@prisma/client": "^7.8.0",
+    "@tanstack/react-table": "^8.21.3",
+    "@types/leaflet": "^1.9.21",
+    "@types/nodemailer": "^8.0.0",
+    "dotenv": "^17.4.2",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.468.0",
+    "next": "^16.2.6",
+    "nodemailer": "^8.0.7",
+    "pg": "^8.21.0",
+    "prisma": "^7.8.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "^5.6.0"
+  }
+}
