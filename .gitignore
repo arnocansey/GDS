@@ -1,9 +1,11 @@
 .next
+.npm-cache
 node_modules
 out
 dist
 .env*
 !.env.example
+*.tsbuildinfo
 npm-debug.log*
 pnpm-debug.log*
 yarn-debug.log*
